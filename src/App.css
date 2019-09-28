@@ -1,22 +1,97 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway:400,600&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
+html {
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.header__inner {
+
+}
+
+.header__brand {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  float: left;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Raleway, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.card {
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.form-control {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  border-bottom: 1px solid #000000;
+  display: block;
+  width: 100%;
+  transition: border-bottom 0.5s ease;
+}
+
+.form-control:focus {
+  border-bottom: 1px solid #1195d3;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.column {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: 1;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-.App-link {
-  color: #09d3ac;
+.avatar {
+  height: 120px;
+  width: 120px;
+  margin-right: 1rem;
 }

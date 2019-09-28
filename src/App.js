@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Input from "./components/Input";
+import List from "./components/List/List";
+import { OrganizationList } from "./components/List/OrganizationList";
+import { RepoList } from "./components/List/RepoList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <div className="header__inner container clearfix">
+          <div className="header__brand">
+            Perx React
+          </div>
+        </div>
       </header>
+      <div className="content container">
+        <div className="card">
+          <Input label={'Username'}/>
+        </div>
+        <div className="row">
+          <div className="column">
+            <OrganizationList/>
+          </div>
+          <div className="column">
+            <RepoList/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
