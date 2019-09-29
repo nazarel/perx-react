@@ -21,9 +21,13 @@ export const OrganizationReducer = (state, action) => {
         ...state,
         isLoading: false,
         isError: true,
+        error: action.payload
       };
     default:
       return {
+        isLoading: false,
+        isError: false,
+        organizations: null,
         ...state
       }
   }

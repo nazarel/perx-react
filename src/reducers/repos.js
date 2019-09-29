@@ -24,6 +24,9 @@ export const RepoReducer = (state, action) => {
       };
     default:
       return {
+        isLoading: false,
+        isError: false,
+        repos: null,
         ...state
       }
   }

@@ -11,10 +11,10 @@ export const promiseMiddleware = store => next => action => {
       error => {
         action.type += "_FAILED";
         action.error = true;
+        action.payload = error;
         store.dispatch(action);
       }
     );
-    console.log(action);
     return;
   }
   next(action);

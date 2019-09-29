@@ -1,0 +1,10 @@
+.input-container {
+    width: 100%;
+    margin: 1rem auto;
+    transition: width 0.5s ease, margin 0.5s ease 0.5s;
+}
+
+.input-container--centralized {
+    width: 50%;
+    margin: 20% auto;
+}
