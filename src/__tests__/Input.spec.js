@@ -7,9 +7,7 @@ import { Provider } from "react-redux";
 import store from "../store";
 
 describe('<Input/>', function() {
-
   it('Should render correctly', function(){
-
     const component = renderer.create(<Provider store={store}><Input /></Provider>);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
@@ -32,5 +30,5 @@ describe('<Input/>', function() {
 
   })
 
-//  Add more tests related to error display
+//TODO:  Add more tests related to error display & data fetching test using nock and async-wait-until
 })
