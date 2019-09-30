@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Perx-React/static/css/main.d95f6789.chunk.css",
+    "main.css": "/Perx-React/static/css/main.160b2a58.chunk.css",
     "main.js": "/Perx-React/static/js/main.d0a57ace.chunk.js",
     "main.js.map": "/Perx-React/static/js/main.d0a57ace.chunk.js.map",
     "runtime-main.js": "/Perx-React/static/js/runtime-main.47fb55c6.js",
@@ -8,8 +8,8 @@
     "static/js/2.2f0374cf.chunk.js": "/Perx-React/static/js/2.2f0374cf.chunk.js",
     "static/js/2.2f0374cf.chunk.js.map": "/Perx-React/static/js/2.2f0374cf.chunk.js.map",
     "index.html": "/Perx-React/index.html",
-    "precache-manifest.b242aefddbe6201c9a92ddba9438c2a7.js": "/Perx-React/precache-manifest.b242aefddbe6201c9a92ddba9438c2a7.js",
+    "precache-manifest.0180c53a452f59472942481b7e95b472.js": "/Perx-React/precache-manifest.0180c53a452f59472942481b7e95b472.js",
     "service-worker.js": "/Perx-React/service-worker.js",
-    "static/css/main.d95f6789.chunk.css.map": "/Perx-React/static/css/main.d95f6789.chunk.css.map"
+    "static/css/main.160b2a58.chunk.css.map": "/Perx-React/static/css/main.160b2a58.chunk.css.map"
   }
 }

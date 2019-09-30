@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f182efe5184cc4d32c2e304f233570d",
+    "revision": "03bc943f622e47e68cc7cd4fe98a54d4",
     "url": "/Perx-React/index.html"
   },
   {
-    "revision": "e6d33a9b9bbb6b516148",
-    "url": "/Perx-React/static/css/main.d95f6789.chunk.css"
+    "revision": "b196c9b389e3c61f7961",
+    "url": "/Perx-React/static/css/main.160b2a58.chunk.css"
   },
   {
     "revision": "0c7cb1011d2be816d8c1",
     "url": "/Perx-React/static/js/2.2f0374cf.chunk.js"
   },
   {
-    "revision": "e6d33a9b9bbb6b516148",
+    "revision": "b196c9b389e3c61f7961",
     "url": "/Perx-React/static/js/main.d0a57ace.chunk.js"
   },
   {
