@@ -2,7 +2,7 @@
   "name": "perx-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nazarel.github.io/Perx-React",
+  "homepage": "https://nazarel.github.io/perx-react/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.0",
